@@ -1,0 +1,5 @@
+auto_mstsc 42.236.90.242 Administrator H3@uMrFMH8H6vt 
+
+
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\LocalDevices" /v "42.236.90.242" /t REG_DWORD /f /d "0xc"
+
